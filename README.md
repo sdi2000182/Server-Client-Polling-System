@@ -1,12 +1,7 @@
 # Multi-Threaded Network Server (Poller)
 
-This project is a multi-threaded network server implemented in C/C++ named "poller." The server conducts a pre-election poll of political parties and stores user votes and poll statistics. It is designed to run in a Unix environment.
+This project is a multi-threaded network server implemented in C.The server conducts a pre-election poll of political parties and stores user votes and poll statistics. It is designed to run in a Unix environment.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Usage](#usage)
-- [Implementation Details](#implementation-details)
 
   ## Overview
 
