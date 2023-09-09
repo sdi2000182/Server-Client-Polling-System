@@ -7,7 +7,6 @@ This project is a multi-threaded network server implemented in C/C++ named "poll
 - [Overview](#overview)
 - [Usage](#usage)
 - [Implementation Details](#implementation-details)
-- [Project Structure](#project-structure)
 
   ## Overview
 
@@ -18,7 +17,7 @@ The "poller" server is divided into several components:
 - **Buffer**: A shared data structure used to synchronize communication between master and worker threads.
 - **Data Storage**: Stores user votes and poll statistics in separate log files.
 
-  ## server.c - Multi-Threaded Network Server
+## server.c - Multi-Threaded Network Server
 
 The `server.c` file contains the main implementation of the multi-threaded network server known as "poller." This server conducts a pre-election poll of political parties, stores user votes, and manages poll statistics. Below, you'll find an overview of key functionalities and components in this file.
 
@@ -52,7 +51,7 @@ The `workers.c` file contains the implementation of worker threads used in the m
 
 - **Error Handling**: The `errors` function is used for reporting and handling errors during client interactions. It ensures that the server gracefully handles errors and cleans up resources.
 
-  ## pollswayer.c - Client Application
+## pollswayer.c - Client Application
 
 The `pollswayer.c` file represents the client application used to connect to the multi-threaded network server and facilitate the voting process. It reads voter data from an input file, connects to the server, and sends votes for processing. Below, you'll find an overview of key functionalities and components in this file.
 
